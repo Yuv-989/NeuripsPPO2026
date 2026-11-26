@@ -14,7 +14,7 @@ import time
 class ExperimentManager():
     EVAL_INTERVAL = 10
 
-    def __init__(self, name='new', domain='reservoir', instance='instance1.rddl', run_from_scratch=True, average=10,
+    def __init__(self, name='new', domain='SkillTeaching', instance='instance_1.rddl', run_from_scratch=True, average=10,
                  net_arch=None, train_episodes_interval=1, horizon=None, exp_num=1, train_seed=112, eval_seed=42,
                  save_model=False):
         self.experiment_name = name
